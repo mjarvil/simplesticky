@@ -54,7 +54,7 @@ I also used this application to note all the code snippets that I frequently use
 2. Copy the filename **sticky.sqlite** and paste it in a safe place.
 
 ##### Restoring database file
-1. To restore previously backed up database file, navigate to your user's directory -> C:\Users\\<username here>\AppData\Local\Database
+1. To restore previously backed up database file, navigate to your user's directory -> C:\Users\\[username here]\AppData\Local\Database
 2. Paste the filename **sticky.sqlite** to the new location.
 
 ***
