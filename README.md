@@ -5,13 +5,13 @@ I also used this application to note all the code snippets that I frequently use
 ***
 
 ### Screenshots
-Main Form: 
+#### Main form
 ![alt text](https://github.com/mjarvil/simplesticky/blob/master/StickyNote/images/main_form.PNG "The main form")
 
-Add Form: 
+#### Add form 
 ![alt text](https://github.com/mjarvil/simplesticky/blob/master/StickyNote/images/add_new_note.PNG "The add form")
 
-Update Form: 
+#### Update form
 ![alt text](https://github.com/mjarvil/simplesticky/blob/master/StickyNote/images/updated.PNG "The update form")
 
 ##### Download Application
@@ -54,7 +54,7 @@ Update Form:
 2. Copy the filename **sticky.sqlite** and paste it in a safe place.
 
 ##### Restoring database file
-1. To restore previously backed up database file, navigate to your user's directory -> C:\Users\<username here>\AppData\Local\Database
+1. To restore previously backed up database file, navigate to your user's directory -> C:\Users\\<username here>\AppData\Local\Database
 2. Paste the filename **sticky.sqlite** to the new location.
 
 ***
