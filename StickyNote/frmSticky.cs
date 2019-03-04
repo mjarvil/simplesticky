@@ -61,7 +61,7 @@ namespace StickyNote
        
         private void checkIfDatabaseExists()
         {
-            db.AppPath = Application.StartupPath + @"\\Database\\sticky.sqlite";
+            db.AppPath = Database.csConString.appData + @"\\Database\\sticky.sqlite";
             if (!File.Exists(db.AppPath))
             {
                 db.createDatabase();
@@ -239,5 +239,7 @@ namespace StickyNote
                 lblStatus.Text = "Color settings updated.";
             }
         }
+
+        
     }
 }

@@ -34,6 +34,8 @@ namespace StickyNote.Database
             }
         }
 
+        public static string appData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+
         private string appPath;
 
         public string AppPath
@@ -48,14 +50,14 @@ namespace StickyNote.Database
 
         public static SQLiteConnection getConn()
         {
-            return new SQLiteConnection("Data Source = "+ Application.StartupPath+"\\Database\\sticky.sqlite;Version=3");
+            return new SQLiteConnection("Data Source = "+ csConString.appData +"\\Database\\sticky.sqlite;Version=3");
         }
         public void createDatabase()
         {
-            
-            string folderName = Application.StartupPath + @"\\Database";
+
+            string folderName = csConString.appData + @"\\Database";
             System.IO.Directory.CreateDirectory(folderName);
-            SQLiteConnection.CreateFile(Application.StartupPath + @"\\Database\\sticky.sqlite");
+            SQLiteConnection.CreateFile(csConString.appData + @"\\Database\\sticky.sqlite");
 
         }
 

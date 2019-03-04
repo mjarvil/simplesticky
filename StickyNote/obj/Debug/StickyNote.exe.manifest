@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StickyNote.exe" size="63488">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StickyNote.exe" size="64000">
       <assemblyIdentity name="StickyNote" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KhPGcCjlPmAf1ocLpCkvscsh5TYSd57QkFB8cPBVIho=</dsig:DigestValue>
+        <dsig:DigestValue>6gTo8gaK5kuVB1fH4KDWV65YAUH4pUiw4w4n5qIUCfc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
