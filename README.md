@@ -45,10 +45,17 @@ Update Form:
 1. You may change the color theme of the **Simple Sticky application** by clicking on the **gear** icon located at the bottom. ![alt text](https://github.com/mjarvil/simplesticky/blob/master/StickyNote/images/change_color.PNG "Change color")
 2. Once you are done selecting your color, click **Ok** to proceed with your changes.
 
-###### Pinning the notes app
-1. There are times wherein we want to layer our text application on top of another. To achieve this, simply click the **pin** icon on the top right portion to pin the application. ![alt text](https://github.com/mjarvil/simplesticky/blob/master/StickyNote/images/pin_icon.PNG "Pin Icon")
-2. Once done, it will then overlay itself on top of every application window that is currently open.
 
+
+***
+
+##### Backup database file
+1. To backup the database file, navigate to your user's application directory -> C:\Users\<username here>\AppData\Local\Database
+2. Copy the filename **sticky.sqlite** and paste it in a safe place.
+
+##### Restoring database file
+1. To restore previously backed up database file, navigate to your user's directory -> C:\Users\<username here>\AppData\Local\Database
+2. Paste the filename **sticky.sqlite** to the new location.
 
 ***
 
